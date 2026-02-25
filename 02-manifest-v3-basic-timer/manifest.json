@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Timer",
+  "version": "0.1.0",
+  "description": "YouTubeの視聴時間を計測します",
+  "icons": {
+    "128": "icon.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [], 
+  "host_permissions": [
+    "*://*.youtube.com/*"
+  ],
+  "action": {
+    "default_icon": "icon.png"
+  }
+}

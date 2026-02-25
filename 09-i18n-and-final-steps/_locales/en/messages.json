@@ -1,0 +1,10 @@
+{
+  "appName": {
+    "message": "My Strict Timer",
+    "description": "The name of the extension"
+  },
+  "appDesc": {
+    "message": "Personal focus timer for YouTube. Tracks active watch time only.",
+    "description": "The description of the extension"
+  }
+}

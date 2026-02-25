@@ -1,0 +1,10 @@
+{
+  "appName": {
+    "message": "自分専用YouTubeタイマー",
+    "description": "拡張機能の名前"
+  },
+  "appDesc": {
+    "message": "YouTubeの視聴時間を正確に記録します。よそ見やウィンドウ切り替えで自動停止するプロ仕様。",
+    "description": "拡張機能の説明"
+  }
+}
