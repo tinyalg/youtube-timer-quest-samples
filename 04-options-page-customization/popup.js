@@ -11,7 +11,12 @@ function loadHistory() {
     // データ（キー:日付, 値:秒数）を日付順に並べ替え
     const sortedKeys = Object.keys(items).sort().reverse();
 
+    // MARK: filter
+    // どちらの関数も、この行の直後に挿入する
     sortedKeys.forEach((date) => {
+      if (!/^\d{4}-\d{2}-\d{2}$/.test(date)) return;
+    // /MARK: filter
+
       const seconds = items[date];
       
       const tr = document.createElement("tr");
@@ -33,6 +38,8 @@ function downloadCSV() {
     // データをCSV形式の文字列にする
     const sortedKeys = Object.keys(items).sort().reverse();
     sortedKeys.forEach((date) => {
+      if (!/^\d{4}-\d{2}-\d{2}$/.test(date)) return;
+
       csvContent += `${date},${items[date]}\n`;
     });
 
