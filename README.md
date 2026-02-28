@@ -1,8 +1,8 @@
 # Chrome拡張機能で学ぶ「エンジニアの思考法」サンプルコード
 
-Zennで公開予定の技術書『**Chrome拡張機能で学ぶ「エンジニアの思考法」—— YouTubeタイマー「制作クエスト」**』の公式サンプルコードリポジトリです。
+Zennで公開中の技術書『**Chrome拡張機能で学ぶ「エンジニアの思考法」—— YouTubeタイマー「制作クエスト」**』の公式サンプルコードリポジトリです。
 
-<!-- [![Zenn Book](https://img.shields.io/badge/Zenn-Read_Book-3EA8FF?style=for-the-badge&logo=zenn)](https://zenn.dev/lwgena/books/youtube-timer-quest) -->
+[![Zenn Book](https://img.shields.io/badge/Zenn-Read_Book-3EA8FF?style=for-the-badge&logo=zenn)](https://zenn.dev/lwgena/books/youtube-timer-quest)
 
 ## 📖 本書について
 本書は、単なる「Chrome拡張機能の作り方」の解説にとどまりません。
